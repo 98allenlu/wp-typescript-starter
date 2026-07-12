@@ -11,6 +11,7 @@ import Article from "@/app/pages/Article";
 import Cart from "@/app/pages/Cart";
 import Checkout from "@/app/pages/Checkout";
 import Search from "@/app/pages/Search";
+import '../../default_shadcn_theme.css';
 
 export default function App() {
   return (
