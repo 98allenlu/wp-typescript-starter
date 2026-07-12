@@ -1,4 +1,4 @@
-import imgDove from "figma:asset/bd1275550b30cbe010ff2912a326ea52bf9eba0c.png";
+import imgDove from "../../assets/bd1275550b30cbe010ff2912a326ea52bf9eba0c.png";
 
 export default function Vector({ className }: { className?: string }) {
   return (

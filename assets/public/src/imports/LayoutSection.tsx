@@ -1,5 +1,5 @@
 import svgPaths from "./svg-wb47w8l6ix";
-import imgPutYourPhotoHere from "figma:asset/91e315dcdcf3143886a01fb52758bd1829765df3.png";
+import imgPutYourPhotoHere from "../../assets/91e315dcdcf3143886a01fb52758bd1829765df3.png";
 
 export default function LayoutSection() {
   return (
