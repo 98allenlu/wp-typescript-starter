@@ -1,11 +1,28 @@
 {
   "compilerOptions": {
-      "outDir": "./assets/public/",
-      "jsx": "react-jsx",
-      "module": "ESNext",
-      "target": "ES2015", // Set to ES5 for older browser support.
-      "strict": true,
-      "allowSyntheticDefaultImports": true,
-      "moduleResolution": "node"
-  }
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJsx": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    
+    // Add these lines to fix the "@" alias
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "assets/public/src/*"
+      ]
+    }
+  },
+  "include": ["assets/public/src/**/*"]
 }
