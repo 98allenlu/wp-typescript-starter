@@ -1,4 +1,4 @@
-import indigoImage from 'figma:asset/84f2c238e9ffb75ea5ea97f782366f1624b0f39e.png';
+import indigoImage from '../../assets/84f2c238e9ffb75ea5ea97f782366f1624b0f39e.png';
 
 export const shopItems = [
   {

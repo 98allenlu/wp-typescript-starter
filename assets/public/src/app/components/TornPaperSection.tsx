@@ -1,7 +1,7 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 import svgPaths from "@/imports/svg-wb47w8l6ix";
-import sectionBg from 'figma:asset/04bf5cb42a5739eaf380966456c9033eb8af5779.png';
+import sectionBg from '../../assets/04bf5cb42a5739eaf380966456c9033eb8af5779.png';
 
 interface TornPaperSectionProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;

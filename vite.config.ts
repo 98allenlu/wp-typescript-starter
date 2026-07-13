@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      // This tells Vite that the "@" symbol means "assets/public/src"
       '@': fileURLToPath(new URL('./assets/public/src', import.meta.url)),
+      '@imports': fileURLToPath(new URL('./assets/public/src/imports', import.meta.url)),
     },
   },
   build: {

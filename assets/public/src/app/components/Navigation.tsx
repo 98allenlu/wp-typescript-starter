@@ -4,7 +4,7 @@ import { Menu, X, ChevronDown, ShoppingCart, Search } from "lucide-react";
 import { useCart } from "@/app/context/CartContext";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "motion/react";
-import headerBg from 'figma:asset/e3b6eecc0d2310357d508011639007ba5941d4de.png';
+import headerBg from '../../assets/e3b6eecc0d2310357d508011639007ba5941d4de.png';
 
 const navItems = [
   { name: "Home", path: "/" },

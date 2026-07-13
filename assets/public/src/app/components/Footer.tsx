@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Twitter } from "lucide-react";
-import footerEdge from 'figma:asset/51b9f4288acfbdb6d7ca9e02a2a026b7ca18941e.png';
+import footerEdge from '../../assets/51b9f4288acfbdb6d7ca9e02a2a026b7ca18941e.png';
 
 export function Footer() {
   return (

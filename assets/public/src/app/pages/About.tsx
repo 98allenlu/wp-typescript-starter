@@ -1,7 +1,7 @@
 import React from "react";
 import { PageHeaderShape } from "@/app/components/PageHeaderShape";
 import AllYoursLucieX from "@/imports/AllYoursLucieX";
-import exampleImage from 'figma:asset/2e5815ad9cd7b670b5966472dfc21d4d581a46a9.png';
+import exampleImage from '../../assets/2e5815ad9cd7b670b5966472dfc21d4d581a46a9.png';
 
 export default function About() {
   return (
